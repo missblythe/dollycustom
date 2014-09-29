@@ -2,10 +2,7 @@
 @import url(../css/sprite.css);
 html {
   font-size: 1em;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
   font-family: sans-serif;
-  -webkit-font-smoothing: antialiased;
   min-height: 100%; }
 
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, input, textarea, p, blockquote, th, td {
@@ -555,8 +552,6 @@ input.email {
   border-bottom: 1px solid white; }
 
 .shadow {
-  -webkit-box-shadow: 0 0.1rem 0.5rem 0 rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 0 0.1rem 0.5rem 0 rgba(0, 0, 0, 0.4);
   box-shadow: 0 0.1rem 0.5rem 0 rgba(0, 0, 0, 0.4); }
 
 .t-shadow {
