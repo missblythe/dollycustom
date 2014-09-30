@@ -97,7 +97,7 @@ p:last-child {
   clear: both; }
 
 .inline {
-  display: inline-block; }
+  display: inline; }
 
 .half {
   padding-bottom: .3rem; }
