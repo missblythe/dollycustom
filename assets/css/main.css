@@ -331,13 +331,14 @@ h2, h3 {
   border-radius: .25rem;
   padding: .3rem 1rem;
   text-transform: uppercase;
-  font-weight: bold; }
+  font-weight: bold;
+  cursor: pointer; }
 
 .subtitles {
   font-size: 0.83rem;
   font-weight: bold; }
 
-.box-white {
+.box {
   border-radius: 1rem;
   margin: 1rem 0 2rem; }
 
@@ -542,6 +543,10 @@ input.email {
 .dark hr {
   border-top: 1px solid white; }
 
+.dark .btn:hover, .dark input[type="submit"]:hover {
+  background: #eb8282;
+  opacity: 0.5; }
+
 .dark .site-name a {
   color: #eb8282; }
 
@@ -595,6 +600,9 @@ input {
 .checkmark {
   fill: #eb8282; }
 
+.white {
+  background: white; }
+
 .faded {
   color: RGBA(0, 0, 0, 0.3); }
 
@@ -606,6 +614,3 @@ input {
 
 svg {
   fill: white; }
-
-.box-white {
-  background: white; }
