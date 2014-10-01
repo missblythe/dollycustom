@@ -519,11 +519,6 @@ label[for="modal-one"] {
 
   .form-submit .btn, .form-submit input[type="submit"] {
     margin-left: 6.25rem; } }
-/*
-@media screen and (min-width : 38.75em and max-width: ) {
-	.thumbnail { height: 90%; }
-}
-*/
 @media screen and (min-width: 54em) {
   .left {
     float: left; }
