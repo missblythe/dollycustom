@@ -295,7 +295,7 @@ p:last-child {
   position: relative;
   top: 0.1rem;
   background-repeat: no-repeat;
-  background-image: url("data:image/svg+xml;charset=utf-8;base64,PHN2ZyBjbGFzcz0iY2hlY2ttYXJrIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmc iIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSIjZWI4MjgyIiBkPSJNNDUwLjU1Ny AyNTUuMzA1Yy0xMi4yMzItMTIuNDQ4LTE0Ljk1Ny0zMS40MDEtNi43MjgtNDYuNzkyIGM1Ljg3M S0xMC45ODEgNi4yODEtMjQuMDczIDEuMTA4LTM1LjM5OWMtNS4xNzMtMTEuMzI3LTE1LjMzNS0x OS41OS0yNy40NzktMjIuMzQ0Yy0xNy4wMjEtMy44NTktMjkuNTYxLTE4LjMzLTMwLjk1OC0zNS4 3MjggYy0wLjk5Ny0xMi40MTEtNy43My0yMy42NDYtMTguMjA2LTMwLjM3OWMtMTAuNDc1LTYuNz MxLTIzLjQ5Mi04LjE4OS0zNS4xOTYtMy45NGMtMTYuNDA1IDUuOTU1LTM0Ljc3NyAwLjU2MS00N S4zNTgtMTMuMzE4IEMyODAuMTkgNTcuNSAyNjguNSA1MS43IDI1NiA1MS42OWMtMTIuNDUxIDAt MjQuMTkgNS44MTItMzEuNzQgMTUuNzE0Yy0xMC41ODEgMTMuODc5LTI4Ljk1MyAxOS4yNzMtNDU uMzU3IDEzLjMgYy0xMS43MDUtNC4yNDktMjQuNzIzLTIuNzkxLTM1LjE5NyAzLjk0Yy0xMC40Nz YgNi43MzItMTcuMjA5IDE3Ljk2OC0xOC4yMDYgMzAuMzc5Yy0xLjM5NyAxNy4zOTctMTMuOTM3I DMxLjg2OC0zMC45NTggMzUuNyBjLTEyLjE0MyAyLjc1NC0yMi4zMDYgMTEuMDE3LTI3LjQ3OSAy Mi4zNDRjLTUuMTczIDExLjMyNi00Ljc2MyAyNC40IDEuMSAzNS4zOTljOC4yMjkgMTUuNCA1LjU gMzQuMzQ0LTYuNzI5IDQ2LjggYy04LjcyNyA4Ljg4Mi0xMi44MDkgMjEuMzI4LTExLjAzNyAzMy 42NTNjMS43NzIgMTIuMyA5LjIgMjMuMSAyMC4xIDI5LjE4MWMxNS4yNDMgOC41IDIzLjIgMjUuO SAxOS42IDQzIGMtMi41MzkgMTIuMiAwLjggMjQuOSA4LjkgMzQuMjc4YzguMTU0IDkuNCAyMC4y IDE0LjUgMzIuNyAxMy42OTZjMTcuNDE5LTEuMDkyIDMzLjUgOS4zIDM5LjggMjUuNiBjNC40NTM gMTEuNiAxNC4xIDIwLjUgMjYgMjQuMDJjMTEuOTQ3IDMuNSAyNC44IDEuMiAzNC44ODEtNi4xMz ZjMTQuMDYyLTEwLjMzNiAzMy4yMTEtMTAuMzM2IDQ3LjMgMCBjMTAuMDMzIDcuNCAyMi45IDkuN iAzNC45IDYuMTM2YzExLjk0OC0zLjUwOSAyMS41NzMtMTIuMzkyIDI2LjAyNy0yNC4wMmM2LjI0 Mi0xNi4yOTkgMjIuMzUxLTI2LjY1IDM5Ljc3LTI1LjU1OSBjMTIuNDI3IDAuOCAyNC41MDYtNC4 yODYgMzIuNjYtMTMuNjk2YzguMTU0LTkuNDExIDExLjQ0OS0yMi4wODggOC45MS0zNC4yNzhjLT MuNTYxLTE3LjA4NiA0LjM5NC0zNC41MDMgMTkuNjM4LTQzLjAwMSBjMTAuODc2LTYuMDYzIDE4L jI5OS0xNi44NTUgMjAuMDcxLTI5LjE4MUM0NjMuMzY1IDI3Ni42IDQ1OS4zIDI2NC4yIDQ1MC42 IDI1NS4zMDV6IE0yMjEuODM1IDM1Ni4zNjNsLTg3LjU5NC04Ny42MTcgbDM3LjI5Ny0zNy4zMDN sNTAuMjk1IDUwLjMwOWwxMTYuMTE2LTExNi4xMTZsMzcuMzEzIDM3LjI4OEwyMjEuODM1IDM1Ni 4zNjN6Ii8+PC9zdmc+"); }
+  background-image: url("data:image/svg+xml;charset=utf-8;base64,PHN2ZyBjbGFzcz0iY2hlY2ttYXJrIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmc\aiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSIjZWI4MjgyIiBkPSJNNDUwLjU1Ny\a AyNTUuMzA1Yy0xMi4yMzItMTIuNDQ4LTE0Ljk1Ny0zMS40MDEtNi43MjgtNDYuNzkyIGM1Ljg3M\aS0xMC45ODEgNi4yODEtMjQuMDczIDEuMTA4LTM1LjM5OWMtNS4xNzMtMTEuMzI3LTE1LjMzNS0x\aOS41OS0yNy40NzktMjIuMzQ0Yy0xNy4wMjEtMy44NTktMjkuNTYxLTE4LjMzLTMwLjk1OC0zNS4\a 3MjggYy0wLjk5Ny0xMi40MTEtNy43My0yMy42NDYtMTguMjA2LTMwLjM3OWMtMTAuNDc1LTYuNz\aMxLTIzLjQ5Mi04LjE4OS0zNS4xOTYtMy45NGMtMTYuNDA1IDUuOTU1LTM0Ljc3NyAwLjU2MS00N\aS4zNTgtMTMuMzE4IEMyODAuMTkgNTcuNSAyNjguNSA1MS43IDI1NiA1MS42OWMtMTIuNDUxIDAt\aMjQuMTkgNS44MTItMzEuNzQgMTUuNzE0Yy0xMC41ODEgMTMuODc5LTI4Ljk1MyAxOS4yNzMtNDU\auMzU3IDEzLjMgYy0xMS43MDUtNC4yNDktMjQuNzIzLTIuNzkxLTM1LjE5NyAzLjk0Yy0xMC40Nz\aYgNi43MzItMTcuMjA5IDE3Ljk2OC0xOC4yMDYgMzAuMzc5Yy0xLjM5NyAxNy4zOTctMTMuOTM3I\a DMxLjg2OC0zMC45NTggMzUuNyBjLTEyLjE0MyAyLjc1NC0yMi4zMDYgMTEuMDE3LTI3LjQ3OSAy\aMi4zNDRjLTUuMTczIDExLjMyNi00Ljc2MyAyNC40IDEuMSAzNS4zOTljOC4yMjkgMTUuNCA1LjU\agMzQuMzQ0LTYuNzI5IDQ2LjggYy04LjcyNyA4Ljg4Mi0xMi44MDkgMjEuMzI4LTExLjAzNyAzMy\a 42NTNjMS43NzIgMTIuMyA5LjIgMjMuMSAyMC4xIDI5LjE4MWMxNS4yNDMgOC41IDIzLjIgMjUuO\aSAxOS42IDQzIGMtMi41MzkgMTIuMiAwLjggMjQuOSA4LjkgMzQuMjc4YzguMTU0IDkuNCAyMC4y\aIDE0LjUgMzIuNyAxMy42OTZjMTcuNDE5LTEuMDkyIDMzLjUgOS4zIDM5LjggMjUuNiBjNC40NTM\agMTEuNiAxNC4xIDIwLjUgMjYgMjQuMDJjMTEuOTQ3IDMuNSAyNC44IDEuMiAzNC44ODEtNi4xMz\aZjMTQuMDYyLTEwLjMzNiAzMy4yMTEtMTAuMzM2IDQ3LjMgMCBjMTAuMDMzIDcuNCAyMi45IDkuN\aiAzNC45IDYuMTM2YzExLjk0OC0zLjUwOSAyMS41NzMtMTIuMzkyIDI2LjAyNy0yNC4wMmM2LjI0\aMi0xNi4yOTkgMjIuMzUxLTI2LjY1IDM5Ljc3LTI1LjU1OSBjMTIuNDI3IDAuOCAyNC41MDYtNC4\ayODYgMzIuNjYtMTMuNjk2YzguMTU0LTkuNDExIDExLjQ0OS0yMi4wODggOC45MS0zNC4yNzhjLT\aMuNTYxLTE3LjA4NiA0LjM5NC0zNC41MDMgMTkuNjM4LTQzLjAwMSBjMTAuODc2LTYuMDYzIDE4L\ajI5OS0xNi44NTUgMjAuMDcxLTI5LjE4MUM0NjMuMzY1IDI3Ni42IDQ1OS4zIDI2NC4yIDQ1MC42\aIDI1NS4zMDV6IE0yMjEuODM1IDM1Ni4zNjNsLTg3LjU5NC04Ny42MTcgbDM3LjI5Ny0zNy4zMDN\asNTAuMjk1IDUwLjMwOWwxMTYuMTE2LTExNi4xMTZsMzcuMzEzIDM3LjI4OEwyMjEuODM1IDM1Ni\a 4zNjN6Ii8+PC9zdmc+"); }
 
 .subtitles .available {
   top: 0.2rem; }
@@ -332,7 +332,8 @@ h2, h3 {
   padding: .3rem 1rem;
   text-transform: uppercase;
   font-weight: bold;
-  cursor: pointer; }
+  cursor: pointer;
+  height: 1.8rem; }
 
 .thumbnail-img {
   width: 100%; }
@@ -344,6 +345,10 @@ h2, h3 {
 .box {
   border-radius: 1rem;
   margin: 1rem 0 2rem; }
+
+input.email {
+  height: 1.8rem;
+  margin-bottom: .5rem; }
 
 /*
 * Pure CSS Components - http://www.felipefialho.com/css-components/
@@ -464,14 +469,12 @@ label[for="modal-one"] {
 .post-title {
   font-size: 2.5rem; }
 
-input.email {
-  margin-bottom: .5rem;
-  width: 100%;
-  height: 2rem; }
-
 @media screen and (max-width: 21.25em) {
   nav {
-    clear: both; } }
+    clear: both; }
+
+  input.email {
+    width: 80%; } }
 @media screen and (min-width: 30.0625em) {
   .t-large {
     font-size: 140%; }
@@ -524,28 +527,28 @@ input.email {
 /* Skin ///////////////////////////////////////////////////////////////////////////////////////// */
 .btn, input[type="submit"] {
   background: #eb8282;
-  color: white; }
+  color: #fff; }
 
 .btn:hover, input[type="submit"]:hover {
   background: #554747; }
 
 .form-list {
-  background: white; }
+  background: #fff; }
 
 /* Dark Pallete */
 .dark {
   background: #554747;
-  color: white; }
+  color: #fff; }
 
 .dark a,
 .dark a:hover,
 .dark .site-name a:hover,
 .dark label[for="modal-one"],
 .dark label[for="modal-one"]:hover {
-  color: white; }
+  color: #fff; }
 
 .dark hr {
-  border-top: 1px solid white; }
+  border-top: 1px solid #fff; }
 
 .dark .btn:hover, .dark input[type="submit"]:hover {
   background: #eb8282;
@@ -558,7 +561,7 @@ input.email {
   background-image: radial-gradient(RGBA(255, 255, 255, 0.1) 15%, transparent 16%), radial-gradient(RGBA(255, 255, 255, 0.1) 15%, transparent 16%);
   background-size: 2rem 2rem;
   background-position: 0 0, 1rem 1rem;
-  border-bottom: 1px solid white; }
+  border-bottom: 1px solid #fff; }
 
 .shadow {
   box-shadow: 0 0.1rem 0.5rem 0 rgba(0, 0, 0, 0.4); }
@@ -594,18 +597,18 @@ input {
 /* Accent Pallete */
 .accent {
   background: #eb8282;
-  color: white; }
+  color: #fff; }
 
 .site-nav a:hover,
 .site-nav label:hover {
   background: #eb8282;
-  color: white; }
+  color: #fff; }
 
 .checkmark {
   fill: #eb8282; }
 
 .white {
-  background: white; }
+  background: #fff; }
 
 .faded {
   color: RGBA(0, 0, 0, 0.3); }
@@ -617,4 +620,4 @@ input {
   opacity: 1; }
 
 svg {
-  fill: white; }
+  fill: #fff; }
