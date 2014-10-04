@@ -99,6 +99,9 @@ p:last-child {
 .inline {
   display: inline; }
 
+.hide {
+  visibility: hidden; }
+
 .half {
   padding-bottom: .3rem; }
 
