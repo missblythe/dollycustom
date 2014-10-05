@@ -86,7 +86,7 @@ p:last-child {
 .lazy {
   display: none; }
 
-.center {
+.center, .pub {
   margin-left: auto;
   margin-right: auto;
   float: none; }
@@ -262,7 +262,7 @@ p:last-child {
   font-weight: bold;
   float: left; }
 
-.pv {
+.pv, .pub {
   padding-top: 1rem;
   padding-bottom: 1rem; }
 
