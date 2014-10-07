@@ -345,7 +345,6 @@ h2, h3 {
 .box {
   border-radius: 1rem;
   margin: 1rem 0 2rem;
-  padding: 2rem;
   overflow: hidden; }
 
 input.email {
@@ -467,6 +466,9 @@ label[for="modal-one"] {
   cursor: pointer; }
 
 /* Media-Queries //////////////////////////////////////////////////////////////////////////////// */
+.box {
+  padding: 1rem; }
+
 .t-large {
   font-size: 120%; }
 
@@ -527,7 +529,10 @@ label[for="modal-one"] {
     max-width: 80%; }
 
   .form-submit .btn, .form-submit input[type="submit"] {
-    margin-left: 6.25rem; } }
+    margin-left: 6.25rem; }
+
+  .box {
+    padding: 2rem; } }
 @media screen and (min-width: 54em) {
   .left {
     float: left; }
