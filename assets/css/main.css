@@ -94,7 +94,8 @@ p:last-child {
 .block {
   display: block;
   overflow: hidden;
-  clear: both; }
+  clear: both;
+  width: 100%; }
 
 .inline {
   display: inline; }
@@ -270,6 +271,15 @@ p:last-child {
   padding-top: 2rem;
   padding-bottom: 2rem; }
 
+.pd1 {
+  padding: 1rem; }
+
+.pd2 {
+  padding: 2rem; }
+
+.mb {
+  margin-bottom: 1rem; }
+
 .site-nav a,
 .site-nav label {
   margin-left: 1rem;
@@ -359,15 +369,24 @@ input.email {
   height: 1.8rem;
   margin-bottom: .5rem; }
 
-.new {
+.btn-small, .filter-option {
   display: inline-block;
   font-weight: bold;
-  padding: .1rem 0.4rem 0;
+  padding: .1rem 0.4rem .05rem;
   border-radius: .3rem;
   font-size: .7rem;
   position: relative;
   bottom: .1rem;
   text-transform: uppercase; }
+
+.filter-option {
+  border: 0;
+  padding-bottom: .15rem;
+  font-weight: normal; }
+
+.filter-option:hover {
+  cursor: pointer;
+  background: red; }
 
 /*
 * Pure CSS Components - http://www.felipefialho.com/css-components/
@@ -474,7 +493,7 @@ label[for="modal-one"] {
   cursor: pointer; }
 
 /* Media-Queries //////////////////////////////////////////////////////////////////////////////// */
-.box {
+.pd2 {
   padding: 1rem; }
 
 .t-large {
@@ -513,6 +532,9 @@ label[for="modal-one"] {
   .form-field {
     margin-left: 0; } }
 @media screen and (min-width: 38.8125em) {
+  .pd2 {
+    padding: 2rem; }
+
   .t-large {
     font-size: 140%; }
 
@@ -537,10 +559,7 @@ label[for="modal-one"] {
     max-width: 80%; }
 
   .form-submit .btn, .form-submit input[type="submit"] {
-    margin-left: 6.25rem; }
-
-  .box {
-    padding: 2rem; } }
+    margin-left: 6.25rem; } }
 @media screen and (min-width: 54em) {
   .left {
     float: left; }
@@ -597,9 +616,17 @@ label[for="modal-one"] {
 .form-list {
   background: #fff; }
 
-.new {
+.btn-small, .filter-option,
+.filter-option.is-selected {
   background: #eb8282;
   color: #fff; }
+
+.filter-option {
+  background: #D7D2CB;
+  color: #fff; }
+
+.filter-option:hover, .filter-option:active {
+  background: #eb8282; }
 
 /* Dark Pallete */
 .dark {
