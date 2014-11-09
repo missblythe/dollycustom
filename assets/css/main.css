@@ -86,6 +86,11 @@ p:last-child {
 .lazy {
   display: none; }
 
+.cl:after, .cl:before {
+  content: "";
+  display: table;
+  clear: both; }
+
 .center, .pub {
   margin-left: auto;
   margin-right: auto;
@@ -271,6 +276,9 @@ p:last-child {
   padding-top: 2rem;
   padding-bottom: 2rem; }
 
+.pr {
+  padding-right: 1.5em; }
+
 .pd1 {
   padding: 1rem; }
 
@@ -365,6 +373,9 @@ h2, h3 {
   margin: 1rem 0 2rem;
   overflow: hidden; }
 
+.pic {
+  border-radius: .5rem; }
+
 input.email {
   height: 1.8rem;
   margin-bottom: .5rem; }
@@ -387,6 +398,23 @@ input.email {
 .filter-option:hover {
   cursor: pointer;
   background: red; }
+
+.small {
+  font-size: 85%; }
+
+.doll-description {
+  height: 3.75rem;
+  word-break: break-word;
+  overflow: hidden;
+  margin-bottom: 1rem; }
+
+.dolls4adoption-item {
+  padding-bottom: 1px;
+  margin-right: 0;
+  padding-bottom: 1.5rem; }
+
+.hover-fade:hover {
+  opacity: 0.5; }
 
 /*
 * Pure CSS Components - http://www.felipefialho.com/css-components/
@@ -611,7 +639,8 @@ label[for="modal-one"] {
   color: #fff; }
 
 .btn:hover, input[type="submit"]:hover {
-  background: #554747; }
+  background: #554747;
+  color: #fff; }
 
 .form-list {
   background: #fff; }
@@ -714,3 +743,6 @@ input {
 
 svg {
   fill: #fff; }
+
+.dolls4adoption-item {
+  border-bottom: 1px solid #D7D2CB; }
