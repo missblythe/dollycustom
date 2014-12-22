@@ -416,6 +416,16 @@ input.email {
 .hover-fade:hover {
   opacity: 0.5; }
 
+.curator {
+  display: block;
+  font-size: 80%;
+  border-top: 1px solid #ccc;
+  padding-top: 1em;
+  margin-top: 2rem; }
+
+.curator .left {
+  margin-right: 1em; }
+
 /*
 * Pure CSS Components - http://www.felipefialho.com/css-components/
 * Author: Luiz Felipe Tartarotti Fialho
