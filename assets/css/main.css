@@ -124,9 +124,11 @@ p:last-child {
   border-bottom: 1px solid; }
 
 /* header */
-.site-name {
+.custom-font {
   font-family: 'Satisfy', cursive;
-  word-spacing: -.5rem;
+  word-spacing: -.5rem; }
+
+.site-name {
   font-size: 2.7rem;
   line-height: 1;
   margin-top: .6rem;
@@ -237,6 +239,9 @@ p:last-child {
 
 .t-tiny {
   font-size: 70%; }
+
+.t-small {
+  font-size: 85%; }
 
 .t-upc {
   text-transform: uppercase; }
@@ -425,6 +430,16 @@ input.email {
 
 .curator .left {
   margin-right: 1em; }
+
+.t-cta {
+  padding: 0;
+  margin-top: .4rem;
+  font-size: 2.75em; }
+
+.wrap {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto; }
 
 /*
 * Pure CSS Components - http://www.felipefialho.com/css-components/
@@ -648,7 +663,9 @@ label[for="modal-one"] {
   background: #eb8282;
   color: #fff; }
 
-.btn:hover, input[type="submit"]:hover {
+.btn:hover, input[type="submit"]:hover,
+.btn-small:hover,
+.filter-option:hover {
   background: #554747;
   color: #fff; }
 
@@ -686,6 +703,7 @@ label[for="modal-one"] {
   background: #eb8282;
   opacity: 0.5; }
 
+.dark .custom-font a,
 .dark .site-name a {
   color: #eb8282; }
 
