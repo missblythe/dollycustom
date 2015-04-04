@@ -268,7 +268,7 @@ p:last-child {
   width: 100%; }
 
 .form-list label {
-  width: 6rem;
+  width: 9rem;
   font-size: .8rem;
   font-weight: bold;
   float: left; }
@@ -612,7 +612,7 @@ label[for="modal-one"] {
     max-width: 80%; }
 
   .form-submit .btn, .form-submit input[type="submit"] {
-    margin-left: 6.25rem; } }
+    margin-left: 9.25rem; } }
 @media screen and (min-width: 54em) {
   .left {
     float: left; }
