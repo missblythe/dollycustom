@@ -1,5 +1,4 @@
 /* Base ///////////////////////////////////////////////////////////////////////////////////////// */
-@import url(../css/sprite.css);
 html {
   font-size: 1em;
   font-family: sans-serif;
@@ -312,11 +311,11 @@ p:last-child {
   display: inline-block; }
 
 .available {
-  width: 0.9rem;
-  height: 1.1rem;
+  width: 1rem;
+  height: 1rem;
   display: inline-block;
   position: relative;
-  top: 0.25rem;
+  top: 0.15rem;
   background-repeat: no-repeat;
   background-image: url("data:image/svg+xml;charset=utf-8;base64,PHN2ZyBjbGFzcz0iY2hlY2ttYXJrIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSIjZWI4MjgyIiBkPSJNNDUwLjU1NyAyNTUuMzA1Yy0xMi4yMzItMTIuNDQ4LTE0Ljk1Ny0zMS40MDEtNi43MjgtNDYuNzkyIGM1Ljg3MS0xMC45ODEgNi4yODEtMjQuMDczIDEuMTA4LTM1LjM5OWMtNS4xNzMtMTEuMzI3LTE1LjMzNS0xOS41OS0yNy40NzktMjIuMzQ0Yy0xNy4wMjEtMy44NTktMjkuNTYxLTE4LjMzLTMwLjk1OC0zNS43MjggYy0wLjk5Ny0xMi40MTEtNy43My0yMy42NDYtMTguMjA2LTMwLjM3OWMtMTAuNDc1LTYuNzMxLTIzLjQ5Mi04LjE4OS0zNS4xOTYtMy45NGMtMTYuNDA1IDUuOTU1LTM0Ljc3NyAwLjU2MS00NS4zNTgtMTMuMzE4IEMyODAuMTkgNTcuNSAyNjguNSA1MS43IDI1NiA1MS42OWMtMTIuNDUxIDAtMjQuMTkgNS44MTItMzEuNzQgMTUuNzE0Yy0xMC41ODEgMTMuODc5LTI4Ljk1MyAxOS4yNzMtNDUuMzU3IDEzLjMgYy0xMS43MDUtNC4yNDktMjQuNzIzLTIuNzkxLTM1LjE5NyAzLjk0Yy0xMC40NzYgNi43MzItMTcuMjA5IDE3Ljk2OC0xOC4yMDYgMzAuMzc5Yy0xLjM5NyAxNy4zOTctMTMuOTM3IDMxLjg2OC0zMC45NTggMzUuNyBjLTEyLjE0MyAyLjc1NC0yMi4zMDYgMTEuMDE3LTI3LjQ3OSAyMi4zNDRjLTUuMTczIDExLjMyNi00Ljc2MyAyNC40IDEuMSAzNS4zOTljOC4yMjkgMTUuNCA1LjUgMzQuMzQ0LTYuNzI5IDQ2LjggYy04LjcyNyA4Ljg4Mi0xMi44MDkgMjEuMzI4LTExLjAzNyAzMy42NTNjMS43NzIgMTIuMyA5LjIgMjMuMSAyMC4xIDI5LjE4MWMxNS4yNDMgOC41IDIzLjIgMjUuOSAxOS42IDQzIGMtMi41MzkgMTIuMiAwLjggMjQuOSA4LjkgMzQuMjc4YzguMTU0IDkuNCAyMC4yIDE0LjUgMzIuNyAxMy42OTZjMTcuNDE5LTEuMDkyIDMzLjUgOS4zIDM5LjggMjUuNiBjNC40NTMgMTEuNiAxNC4xIDIwLjUgMjYgMjQuMDJjMTEuOTQ3IDMuNSAyNC44IDEuMiAzNC44ODEtNi4xMzZjMTQuMDYyLTEwLjMzNiAzMy4yMTEtMTAuMzM2IDQ3LjMgMCBjMTAuMDMzIDcuNCAyMi45IDkuNiAzNC45IDYuMTM2YzExLjk0OC0zLjUwOSAyMS41NzMtMTIuMzkyIDI2LjAyNy0yNC4wMmM2LjI0Mi0xNi4yOTkgMjIuMzUxLTI2LjY1IDM5Ljc3LTI1LjU1OSBjMTIuNDI3IDAuOCAyNC41MDYtNC4yODYgMzIuNjYtMTMuNjk2YzguMTU0LTkuNDExIDExLjQ0OS0yMi4wODggOC45MS0zNC4yNzhjLTMuNTYxLTE3LjA4NiA0LjM5NC0zNC41MDMgMTkuNjM4LTQzLjAwMSBjMTAuODc2LTYuMDYzIDE4LjI5OS0xNi44NTUgMjAuMDcxLTI5LjE4MUM0NjMuMzY1IDI3Ni42IDQ1OS4zIDI2NC4yIDQ1MC42IDI1NS4zMDV6IE0yMjEuODM1IDM1Ni4zNjNsLTg3LjU5NC04Ny42MTcgbDM3LjI5Ny0zNy4zMDNsNTAuMjk1IDUwLjMwOWwxMTYuMTE2LTExNi4xMTZsMzcuMzEzIDM3LjI4OEwyMjEuODM1IDM1Ni4zNjN6Ii8+PC9zdmc+"); }
 
@@ -450,6 +449,20 @@ input.email {
   position: relative;
   text-align: center;
   font-size: .8em; }
+
+/* New icons */
+.icon {
+  opacity: .4;
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 1.1rem;
+  background-color: #fff;
+  color: #554747;
+  border-radius: 50%; }
+
+.icon:hover {
+  opacity: 1; }
 
 /* MailChimp Form Embed Code - Classic - 08/17/2011 */
 #mc_embed_signup form {
@@ -1015,12 +1028,6 @@ input {
 
 .faded {
   color: RGBA(0, 0, 0, 0.3); }
-
-.icon {
-  opacity: 0.3; }
-
-.icon:hover {
-  opacity: 1; }
 
 svg {
   fill: #fff; }
