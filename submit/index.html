@@ -29,7 +29,7 @@
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="/assets/css/main.css">
 	<link rel="canonical" href="http://www.dollycustom.com/submit/">
 
@@ -134,23 +134,35 @@ After your info is received, it will be confirmed and enter the list.</p>
 			<input type='hidden' name='redirect_to' value='http://www.dollycustom.com/thankyou.html' />
 
 			<ul class="simple-list form-list">
-				<li><label for="Name" class="left">Name</label><input type='text' name='Name' class="form-field" /></li>
-				<li><label for="Brand" class="left">Brand</label><input type='text' name='Brand' class="form-field" /></li>
-				<li><label for="Email" class="left">Email</label><input type='email' name='Email' class="form-field" /></li>
-				<li><label for="Country" class="left">Country</label><input type='text' name='Country' class="form-field" /></li>
-				<li><label for="Facebook" class="left">Facebook (Link)</label><input type='url' name='Facebook' class="form-field" /></li>
-				<li><label for="Flickr" class="left">Flickr (Link)</label><input type='url' name='Flickr' class="form-field" /></li>
-				<li><label for="Etsy" class="left">Etsy (Link)</label><input type='url' name='Etsy' class="form-field" /></li>
+
+        <li><h4 class="first text-uppercase form-subtitle">About you:</h4></li>
+
+        <li><label for="Name" class="left">Name</label><input type='text' name='Name' class="form-field" placeholder="Your real name (first and last)" /></li>
+				<li><label for="Email" class="left">Email</label><input type='email' name='Email' class="form-field" placeholder="Your email (will not be public)" /></li>
+				<li><label for="Country" class="left">Country</label><input type='text' name='Country' class="form-field" placeholder="Where you are located" /></li>
+
+        <li><h4 class="text-uppercase form-subtitle">Your Social Links:</h4></li>
+
+        <li><label for="Facebook" class="left">Facebook (Link)</label><input type='url' name='Facebook' class="form-field" /></li>
+        <li><label for="Instagram" class="left">Instagram (Link)</label><input type='url' name='Instagram' class="form-field" /></li>
+        <li><label for="Flickr" class="left">Flickr (Link)</label><input type='url' name='Flickr' class="form-field" /></li>
+        <li><label for="Twitter" class="left">Twitter (Link)</label><input type='url' name='Twitter' class="form-field" /></li>
+        <li><label for="Etsy" class="left">Etsy (Link)</label><input type='url' name='Etsy' class="form-field" /></li>
 				<li><label for="Website/Blog" class="left">Website/Blog (Link)</label><input type='url' name='Website/Blog' class="form-field" /></li>
-				<li><label for="Instagram" class="left">Instagram (Link)</label><input type='url' name='Instagram' class="form-field" /></li>
 				<li><label for="Ebay" class="left">Ebay (Link)</label><input type='url' name='Ebay' class="form-field" /></li>
-				<li><label for="Twitter" class="left">Twitter (Link)</label><input type='url' name='Twitter' class="form-field" /></li>
         <li><label for="YouTube" class="left">YouTube (Link)</label><input type='url' name='YouTube' class="form-field" /></li>
+
+        <li><h4 class="text-uppercase form-subtitle">Your Custom Work:</h4></li>
+
+        <li><label for="Brand" class="left">Brand</label><input type='text' name='Brand' class="form-field" placeholder="Brand name of your custom doll service" /></li>
+        <li><label for="Date" class="left">Started on (year)</label><input type="text" name="Date" class="form-field" placeholder="When did you start customizing Blythe dolls (year)?" /></li>
         <li><label for="Other Dolls">Other Dolls</label><input type='text' name='Other Dolls' class="form-field" placeholder="What other dolls do you customize besides Blythe dolls?" /></li>
 				<li><label for="Commissions" class="left">Commissions</label><input type='checkbox' name='Commissions' value="available" /><small> Check box if you <strong>accept</strong> commissions for custom work.</small></li>
 				<li><label for="Photo" class="left">Photo</label><input type='file' name='Photo' class="form-field" /></li><br>
-				<li><label for="Customs" class="left hide">Customs</label><input type='checkbox' name='Customs'  value="Confirmed more than 10 dolls" /><small> Check box to you confirm that you have created/sold <strong>more than 10</strong> Blythe Custom dolls.</small></li><br>
+				<li><label for="Customs" class="left hide">Customs</label><input type='checkbox' name='Customs'  value="Confirmed more than 10 dolls" /><small> Check box to you confirm that you have created/sold <strong>more than 10</strong> Blythe Custom dolls.</small></li>
 
+        <li><h4 class="text-uppercase form-subtitle">Newsletter:</h4></li>
+        <li><label for="Newsletter" class="left hide">Newsletter</label><input type='checkbox' name='Newsletter'  value="SUbscribe" /> Check box to subscribe to the <strong>DollyCustom Mailing List</strong>.</li><br/><br/>
 				<li><input type='submit' value='Submit' class="btn" /></li>
 			</ul>
 
@@ -163,25 +175,10 @@ After your info is received, it will be confirmed and enter the list.</p>
 
 		<div class="site-footer block fullwidth">
 			<div class="wrapper">
-				<!-- Adsense -->
-<div class="pub box pd2 white">
-			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<!-- DC Responsive Ad -->
-		<ins class="adsbygoogle"
-			style="display:block"
-			data-ad-client="ca-pub-0029335921024792"
-			data-ad-slot="3460200396"
-			data-ad-format="auto"></ins>
-		<script>
-		(adsbygoogle = window.adsbygoogle || []).push({});
-		</script>
-</div>
-
-
-<!-- Footer -->
+				<!-- Footer -->
 <footer class="pv t-center small">
 	<p>2014-2016 &copy; Patricia Carvalho — <a href="http://www.missblythe.com" target="_blank">MissBlythe</a> / <a href="http://www.dollyadoption.com" target="_blank">DollyAdoption.com</a> / <a href="https://www.facebook.com/groups/dollyadoption.group/" target="_blank">DollyAdoption FB Group</a> / <a href="https://www.facebook.com/dollycustom" target="_blank">DollyCustom FB Page</a>.<br/> All photos copyright of their owners and reproduced here with permission.</p>
-	<p><strong>Updated:</strong> October 02, 2016</p>
+	<p><strong>Updated:</strong> November 06, 2016</p>
 </footer>
 
 			</div>

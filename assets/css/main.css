@@ -51,13 +51,13 @@ body {
   line-height: 1.5;
   min-height: 100%;
   -webkit-font-smoothing: antialiased;
-  font-family: 'Droid Sans', sans-serif; }
+  font-family: 'Droid Sans', Helvetica, Arial, sans-serif; }
 
 a {
   text-decoration: none; }
 
 h1, h2, h3, h4, .site-tagline, .name, .t-large, .site-nav, .btn, .footer-subscribe input[type="submit"], input[type="submit"] {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif; }
 
 ul {
   margin-left: 2rem; }
@@ -75,6 +75,17 @@ p {
 
 p:last-child {
   margin-bottom: 0; }
+
+.text-uppercase {
+  text-transform: uppercase; }
+
+.form-subtitle {
+  margin: 3em 0;
+  border-bottom: 1px dotted;
+  padding-bottom: 0.5em; }
+
+.form-subtitle.first {
+  margin-top: 1em; }
 
 /* Layout /////////////////////////////////////////////////////////////////////////////////////// */
 .inline-list > li {
