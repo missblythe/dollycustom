@@ -475,6 +475,22 @@ input.email {
 .icon:hover {
   opacity: 1; }
 
+.socialmedia a:hover {
+  cursor: pointer; }
+
+/* grid */
+.cz-country {
+  padding: 0;
+  line-height: 1;
+  margin: 1em 0 0; }
+
+.cz-date span {
+  margin: .5em;
+  padding-top: .5em; }
+
+.cz-date span:before {
+  content: 'EST. '; }
+
 /* MailChimp Form Embed Code - Classic - 08/17/2011 */
 #mc_embed_signup form {
   display: block;
