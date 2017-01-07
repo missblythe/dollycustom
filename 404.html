@@ -7,6 +7,9 @@
 	<meta name="description" content="DollyCustom is a reference site where you will be able to find all Blythe Doll Customizers that are currently working on Blythe customs, either for direct sale or commissions.">
 	<meta name="keywords" content="about, Blythe dolls, custom Blythe dolls, customization">
 
+  <!--Zanox Verification-->
+  <meta name="verification" content="f13270b0162332b8b904d1f83e4849c2">
+
 	<!-- Facebook -->
 	<meta property="og:locale" content="en_US">
 	<meta property="og:title" content="Page not found &#8211; Dolly Custom">
@@ -88,10 +91,11 @@
 		<h2 class="accessibility">Navigation</h2>
 		<ul class="site-nav inline-list">
 			<li><a href="/">Home</a></li>
+      <li><a href="/dolls">Dolls</a></li>
 			<li><a href="/about">About</a></li>
-			<li><label class="t-upc" for="modal-one">Freebie<span class="available"></span></label></li>
+			<li><label class="t-upc" for="modal-one">Freebie <i class="fa fa-diamond icon-freebie" aria-hidden="true"></i></label></li>
 			<li><a href="/submit">Submit</a></li>
-			<li><a href="https://www.facebook.com/dollycustom" target="_blank">Facebook</a></li>
+			<li><a href="https://www.facebook.com/dollycustom" target="_blank" class="social-icon"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
 		</ul>
 	</nav>
 
@@ -133,8 +137,8 @@
 			<div class="wrapper">
 				<!-- Footer -->
 <footer class="pv t-center small">
-	<p>2014-2016 &copy; Patricia Carvalho — <a href="http://www.missblythe.com" target="_blank">MissBlythe</a> / <a href="http://www.dollyadoption.com" target="_blank">DollyAdoption.com</a> / <a href="https://www.facebook.com/groups/dollyadoption.group/" target="_blank">DollyAdoption FB Group</a> / <a href="https://www.facebook.com/dollycustom" target="_blank">DollyCustom FB Page</a>.<br/> All photos copyright of their owners and reproduced here with permission. This site might contain affiliate links.</p>
-	<p><strong>Updated:</strong> December 04, 2016</p>
+  <p>2014-2017 &copy; Patricia Carvalho — <a href="http://www.missblythe.com" target="_blank">MissBlythe</a> / <a href="http://www.dollyadoption.com" target="_blank">DollyAdoption.com</a> / <a href="https://www.facebook.com/groups/dollyadoption.group/" target="_blank">DollyAdoption FB Group</a> / <a href="https://www.facebook.com/dollycustom" target="_blank">DollyCustom FB Page</a>.<br/> <b>Disclaimer:</b> All photos copyright of their owners. This list contains affiliate links. This means that I may receive a small commission (at no cost to the seller or buyer) if you subscribe or purchase something through the links provided.</p>
+	<p><strong>Updated:</strong> January 07, 2017</p>
 </footer>
 
 			</div>
@@ -198,6 +202,16 @@
   <!--Hello Bar-->
   <script src="//my.hellobar.com/37fb05341509ecb2032b024d77be1018bcb4aadd.js" type="text/javascript" charset="utf-8" async="async"></script>
   <!--/Hello Bar-->
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script>
+      $( document ).ready(function() {
+          $('a[href*="etsy"]').on('click', function(e) {
+              var alink = 'https://ad.zanox.com/ppc/?40572344C628959790&ulp=[[' + $(this).attr('href') + ']]';
+              $(this).attr('href', alink);
+          });
+      });
+  </script>
 
 	</body>
 

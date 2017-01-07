@@ -278,7 +278,8 @@ p:last-child {
   width: 9rem;
   font-size: .8rem;
   font-weight: bold;
-  float: left; }
+  float: left;
+  padding-top: 0.4em; }
 
 .pv, .pub {
   padding-top: 1rem;
@@ -307,6 +308,9 @@ p:last-child {
   text-transform: uppercase;
   padding: .2rem .3rem;
   border-radius: .2rem; }
+
+a:hover {
+  cursor: pointer; }
 
 .site-nav .available {
   top: 0;
@@ -366,8 +370,7 @@ h2, h3 {
   padding: .3rem 1rem;
   text-transform: uppercase;
   font-weight: bold;
-  cursor: pointer;
-  height: 1.8rem; }
+  cursor: pointer; }
 
 .thumbnail {
   height: 84%; }
@@ -409,6 +412,12 @@ input.email {
   bottom: .1rem;
   text-transform: uppercase; }
 
+.btn.btn-large, input.btn-large[type="submit"] {
+  padding: 0.6rem 1.5rem;
+  font-size: 1.2rem;
+  height: auto;
+  font-weight: normal; }
+
 .filter-option {
   border: 0;
   padding-bottom: .15rem;
@@ -428,7 +437,6 @@ input.email {
   margin-bottom: 1rem; }
 
 .dolls4adoption-item {
-  padding-bottom: 1px;
   margin-right: 0;
   padding-bottom: 1.5rem; }
 
@@ -490,6 +498,61 @@ input.email {
 
 .cz-date span:before {
   content: 'EST. '; }
+
+/* dolls page */
+.doll-title {
+  overflow: hidden;
+  padding: 0.6em 1em 0 0;
+  margin: 0;
+  width: 100%; }
+
+.doll-title h4 {
+  color: #554747;
+  line-height: 1.4;
+  font-size: .85rem;
+  height: 2.7em;
+  overflow: hidden;
+  font-weight: normal; }
+
+.doll-link:hover .doll-title h4 {
+  color: #EB8282; }
+
+.doll-img {
+  display: inline-block;
+  margin: 0;
+  float: left;
+  width: 100%;
+  border-bottom: .5em solid transparent;
+  transform: opacity 250ms; }
+
+.doll-link {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  position: relative; }
+
+.doll-link:hover {
+  cursor: pointer; }
+
+.doll-link:hover img {
+  opacity: .75;
+  border-color: #eb8282; }
+
+.doll-seller {
+  padding: 0 1em;
+  position: absolute;
+  bottom: 4.45em;
+  z-index: 1;
+  color: white;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.75); }
+
+.dolls .post-title {
+  text-align: center;
+  padding-bottom: 0; }
+
+.dolls .stats {
+  padding-top: 0;
+  padding-bottom: 2em; }
 
 /* MailChimp Form Embed Code - Classic - 08/17/2011 */
 #mc_embed_signup form {
@@ -898,7 +961,7 @@ label[for="modal-one"] {
   .t-large {
     font-size: 150%; }
 
-  .stats {
+  .home .stats {
     text-align: right; }
 
   .site-brand,
@@ -1047,6 +1110,17 @@ input {
   background: #eb8282;
   color: #fff; }
 
+.site-nav a.social-icon:hover {
+  border-radius: 0;
+  color: #eb8282;
+  background: transparent; }
+
+.site-nav .t-upc .icon-freebie {
+  color: #eb8282; }
+
+.site-nav .t-upc:hover .icon-freebie {
+  color: #fff; }
+
 .checkmark {
   fill: #eb8282; }
 
@@ -1073,3 +1147,6 @@ svg {
   .promo-banner:hover {
     background-color: #D7D2CB;
     color: #554747; }
+
+.icon-available {
+  color: #eb8282; }
