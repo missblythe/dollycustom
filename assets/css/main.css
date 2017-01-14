@@ -512,7 +512,8 @@ input.email {
   font-size: .85rem;
   height: 2.7em;
   overflow: hidden;
-  font-weight: normal; }
+  font-weight: normal;
+  float: left; }
 
 .doll-link:hover .doll-title h4 {
   color: #EB8282; }
