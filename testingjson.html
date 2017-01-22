@@ -27,7 +27,7 @@
 <script>
 $(function () {
 
-    $.getJSON('http://tumbbblr.tumblr.com/api/read/json?callback=tumblr&num=10', function (data) {
+    $.getJSON('http://tumbbblr.tumblr.com/api/read/json?callback=tumblr&num=10?api-key=ImfTcYT3jAFpuE5ErTwTeT3siw8mw1OwqSJRebt1Bc2AzXUKS4', function (data) {
         var template = $('#template-news').html();
         var html = Mustache.to_html(template, data);
         $('#tumblr').html(html);
