@@ -36,8 +36,8 @@
 // } );
 	function loadPosts () {
 
-        var key = "api_key=xBcVPLfdDKpH0GjMCd1whW7rPoYkzLgZD3ZwpzndISFI4huSpA";
-        var api = "https://api.tumblr.com/v2/blog/only-text-posts.tumblr.com/";
+        var key = "api_key=ImfTcYT3jAFpuE5ErTwTeT3siw8mw1OwqSJRebt1Bc2AzXUKS4";
+        var api = "https://api.tumblr.com/v2/blog/tumbbblr.tumblr.com/";
         var retrieve_more = function (offset) {
             $.getJSON(api + "posts/text?callback=?&filter=text&limit=20&offset=" + offset + "&" + key,function(data) {
                 $.each(data.response.posts, function(i, item) {
