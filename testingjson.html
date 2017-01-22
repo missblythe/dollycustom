@@ -37,21 +37,21 @@
 	function loadPosts () {
 
         var key = "api_key=ImfTcYT3jAFpuE5ErTwTeT3siw8mw1OwqSJRebt1Bc2AzXUKS4";
-        var api = "https://api.tumblr.com/v2/blog/tumbbblr.tumblr.com/";
+        var api = "http://tumbbblr.tumblr.com/api/read/json";
         var retrieve_more = function (offset) {
-            $.getJSON(api + "posts/text?callback=?&filter=text&limit=20&offset=" + offset + "&" + key,function(data) {
+            $.getJSON(api + "" + offset + "&" + key,function(data) {
                 $.each(data.response.posts, function(i, item) {
                     var content = item.body;
                     $("#posts ul").append('<li>' + content + '</li>')
                 });
 
-                if (data.response.posts.length == 20) {
-                    retrieve_more(offset + 20);
-                }
+//                 if (data.response.posts.length == 20) {
+//                     retrieve_more(offset + 20);
+//                 }
             });
         };
 
-        retrieve_more(0);
+//         retrieve_more(0);
     }
 
     loadPosts();
