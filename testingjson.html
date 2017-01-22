@@ -1,0 +1,38 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+  <title></title>
+</head>  
+<body>
+
+<div id="tumblr"></div>
+
+<script id="template-news" type="text/template">
+  {{#posts}}
+    <h4>{{regular-title}}</h4>
+    <p>{{url}}</p>
+    <p>{{regular-body}}</p>
+  {{/posts}}
+</script>
+
+
+
+
+<!--jQuery-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!--Mustache-->
+<script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.js"></script>
+
+<script>
+$(function () {
+
+    $.getJSON('http://tumbbblr.tumblr.com/api/read/json?callback=tumblr&num=10', function (data) {
+        var template = $('#template-news').html();
+        var html = Mustache.to_html(template, data);
+        $('#tumblr').html(html);
+    })
+} );
+</script>
+</body>
+</html>
