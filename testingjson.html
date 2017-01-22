@@ -6,7 +6,8 @@
 </head>  
 <body>
 
-<div id="tumblr"></div>
+<div id="posts"><ul></ul></div>
+<!-- <div id="tumblr"></div>
 
 <script id="template-news" type="text/template">
   {{#posts}}
@@ -14,7 +15,7 @@
     <p>{{url}}</p>
     <p>{{regular-body}}</p>
   {{/posts}}
-</script>
+</script> -->
 
 
 
@@ -25,14 +26,35 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.js"></script>
 
 <script>
-$(function () {
+// $(function () {
 
-    $.getJSON('http://tumbbblr.tumblr.com/api/read/json', function (data) {
-        var template = $('#template-news').html();
-        var html = Mustache.to_html(template, data);
-        $('#tumblr').html(html);
-    })
-} );
+//     $.getJSON('http://tumbbblr.tumblr.com/api/read/json', function (data) {
+//         var template = $('#template-news').html();
+//         var html = Mustache.to_html(template, data);
+//         $('#tumblr').html(html);
+//     })
+// } );
+	function loadPosts () {
+
+        var key = "api_key=xBcVPLfdDKpH0GjMCd1whW7rPoYkzLgZD3ZwpzndISFI4huSpA";
+        var api = "https://api.tumblr.com/v2/blog/only-text-posts.tumblr.com/";
+        var retrieve_more = function (offset) {
+            $.getJSON(api + "posts/text?callback=?&filter=text&limit=20&offset=" + offset + "&" + key,function(data) {
+                $.each(data.response.posts, function(i, item) {
+                    var content = item.body;
+                    $("#posts ul").append('<li>' + content + '</li>')
+                });
+
+                if (data.response.posts.length == 20) {
+                    retrieve_more(offset + 20);
+                }
+            });
+        };
+
+        retrieve_more(0);
+    }
+
+    loadPosts();
 </script>
 </body>
 </html>
