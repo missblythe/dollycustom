@@ -1155,3 +1155,12 @@ svg {
 
 .icon-available {
   color: #eb8282; }
+
+.site-nav-dolls:after {
+  background: #eb8282;
+  font-size: 0.7em;
+  position: relative;
+  padding: 0 0.5em;
+  border-radius: 1em;
+  bottom: 0.5em;
+  margin-left: .5em; }
