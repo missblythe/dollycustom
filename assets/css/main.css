@@ -347,6 +347,17 @@ footer {
 input {
   border-radius: .25rem; }
 
+.text-center {
+  text-align: center; }
+
+.auctions-title {
+  border-top: 1px solid #ccc; }
+
+.auctions-title h3 {
+  padding-top: 1rem;
+  font-size: 2rem;
+  font-weight: normal; }
+
 /* Modules ////////////////////////////////////////////////////////////////////////////////////// */
 .accessibility, label[for="mce-EMAIL"] {
   visibility: hidden;
@@ -358,7 +369,7 @@ input {
 
 .post-title {
   padding: 2rem 0;
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: normal; }
 
 h2, h3 {
@@ -984,7 +995,7 @@ label[for="modal-one"] {
     padding: .2rem .6rem; }
 
   .post-title {
-    font-size: 3.5rem; }
+    font-size: 3rem; }
 
   input.email {
     margin-bottom: 0;
