@@ -89,14 +89,14 @@
 
   <style>
     .site-nav-dolls:after {
-      content: '172'
+      content: '213'
     }
   </style>
 
 </head>
 
 
-	<body class="">
+	<body id="top" class="">
 
 	
 	<!-- Google Analytics -->
@@ -111,6 +111,9 @@
 </script>
 <!-- End Google Analytics -->
 	
+
+
+  <div class="back-top"><a href="#top" class="vertical-align horizontal-align"><i class="fa fa-2x fa-angle-up"></i><span class="sr-only">Back to top</span></a></div>
 
 		<div class="site-header dark block fullwidth shadow">
 			<div class="wrapper">
@@ -222,7 +225,7 @@ Note: Most submissions that meet the condition are accepted, but I reserve the r
 				<!-- Footer -->
 <footer class="pv t-center small">
   <p>2014-2017 &copy; Patricia Carvalho — <a href="http://www.missblythe.com" target="_blank">MissBlythe</a> / <a href="http://www.dollyadoption.com" target="_blank">DollyAdoption.com</a> / <a href="https://www.facebook.com/groups/dollyadoption.group/" target="_blank">DollyAdoption FB Group</a> / <a href="https://www.facebook.com/dollycustom" target="_blank">DollyCustom FB Page</a>.<br/> <b>Disclaimer:</b> All photos copyright of their owners. This list contains affiliate links. This means that I may receive a small commission (at no cost to the seller or buyer) if you subscribe or purchase something through the links provided.</p>
-	<p><strong>Updated:</strong> April 29, 2017</p>
+	<p><strong>Updated:</strong> May 06, 2017</p>
 </footer>
 
 			</div>
@@ -295,6 +298,9 @@ Note: Most submissions that meet the condition are accepted, but I reserve the r
               $(this).attr('href', alink);
           });
       });
+
+      $(document).ready(function(){var n=$(".back-top");$(n).hide(),$(function(){$(window).scroll(function(){$(this).scrollTop()>100?$(n).fadeIn():$(n).fadeOut()}),$(n).click(function(){return $("body,html").animate({scrollTop:0},800),!1})})});
+
   </script>
 
 	</body>

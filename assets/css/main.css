@@ -87,6 +87,29 @@ p:last-child {
 .form-subtitle.first {
   margin-top: 1em; }
 
+.vertical-align {
+  display: -ms-flexbox !important;
+  display: flex !important;
+  align-items: center; }
+
+.horizontal-align {
+  display: -ms-flexbox !important;
+  display: flex !important;
+  justify-content: center; }
+
+.back-top i {
+  font-size: 3rem;
+  line-height: 5rem; }
+
+.back-top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+  z-index: 99; }
+
 /* Layout /////////////////////////////////////////////////////////////////////////////////////// */
 .inline-list > li {
   position: relative;
