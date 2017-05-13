@@ -381,6 +381,16 @@ input {
   font-size: 2rem;
   font-weight: normal; }
 
+.site-nav-footer {
+  display: inline-block;
+  margin: auto; }
+
+.footer-nav {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 2em;
+  margin-top: 3em; }
+
 /* Modules ////////////////////////////////////////////////////////////////////////////////////// */
 .accessibility, label[for="mce-EMAIL"] {
   visibility: hidden;
@@ -1147,7 +1157,7 @@ input {
 .site-nav a:hover,
 .site-nav label:hover {
   background: #eb8282;
-  color: #fff; }
+  color: #fff !important; }
 
 .site-nav a.social-icon:hover {
   border-radius: 0;
@@ -1192,9 +1202,16 @@ svg {
 
 .site-nav-dolls:after {
   background: #eb8282;
+  color: #fff;
   font-size: 0.7em;
   position: relative;
   padding: 0 0.5em;
   border-radius: 1em;
   bottom: 0.5em;
   margin-left: .5em; }
+
+.site-nav a.social-icon:hover {
+  color: #eb8282 !important; }
+
+.site-nav-footer a.social-icon:hover {
+  color: #333333 !important; }
